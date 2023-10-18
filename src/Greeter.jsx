@@ -1,4 +1,4 @@
-function Greeter({ person, from }) {
+function Greeter({ person, from = "Ghar ka sarbrah" }) {
   return (
     <>
       <h1>Hi There!, {person}</h1>
