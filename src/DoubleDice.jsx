@@ -5,14 +5,18 @@ function DoubleDice() {
   const num2 = Math.floor(Math.random() * 3) + 1;
 
   return (
-    <>
+    // <div className="" style={{ color: "purple", fontSize: "25px" }}>
+    <div
+      className=""
+      style={{ color: num1 === num2 ? "green" : "red", fontSize: "25px" }}
+    >
       <h2>Double Dice</h2>
       <h3>{num1 === num2 ? "You Win :)" : null}</h3>
       {/* OR */}
       {/* {num1 === num2 && <h3>You Win :)</h3>} */}
       <p>Num1: {num1} </p>
       <p>Num2: {num2} </p>
-    </>
+    </div>
   );
 }
 
