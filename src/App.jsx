@@ -29,8 +29,8 @@ function App() {
       <DoubleDice />
       <ColorList colors={["Red", "purple", "pink", "teal"]} />
       <ColorList colors={["Blue", "orangered", "slategrey", "teal"]} /> */}
-      <Slots val1="⚔️" val2="⚔️" val3="⚔️" />
-      <Slots val1="⚔️" val2="🪓" val3="⚔️" />
+      {/* <Slots val1="⚔️" val2="⚔️" val3="⚔️" />
+      <Slots val1="⚔️" val2="🪓" val3="⚔️" /> */}
     </>
   );
 }
