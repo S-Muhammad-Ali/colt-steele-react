@@ -1,5 +1,5 @@
 function ColorList({ colors }) {
-  const list = colors.map((color) => <li>{color}</li>);
+  const list = colors.map((c) => <li style={{ color: c }}>{c}</li>);
   return (
     <>
       <p>Color List</p>
