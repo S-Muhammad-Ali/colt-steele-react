@@ -54,13 +54,13 @@ function App() {
       <h2>Start editing to see some magic happen!</h2> */}
       <SlotM x={slot1} y={slot2} z={slot3} />
       <button onClick={spinSlots}>Spin the Slots</button>
+      {/* <SlotM x={onClic()} y={onClic()} z={onClic()} />
       <SlotM x={onClic()} y={onClic()} z={onClic()} />
       <SlotM x={onClic()} y={onClic()} z={onClic()} />
       <SlotM x={onClic()} y={onClic()} z={onClic()} />
       <SlotM x={onClic()} y={onClic()} z={onClic()} />
-      <SlotM x={onClic()} y={onClic()} z={onClic()} />
-      <SlotM x={onClic()} y={onClic()} z={onClic()} />
-      <SlotM x="😊" y="😊" z="😊" />
+      <SlotM x={onClic()} y={onClic()} z={onClic()} /> */}
+      {/* <SlotM x="😊" y="😊" z="😊" /> */}
     </div>
   );
 }
