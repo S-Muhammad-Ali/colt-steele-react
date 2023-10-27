@@ -1,16 +1,10 @@
+import { ShoppingListItem } from "./ShoppingListItem";
+
 function ShoppingList({ items }) {
   return (
     <ul>
       {items.map((i) => (
-        <li
-          style={{
-            color: i.completed ? "green" : "red",
-            textDecoration: i.completed ? "line-through" : "none",
-          }}
-        >
-          {/* if i.completed is true make it gray otherwise */}
-          {i.item.toUpperCase()} - {i.quantity}
-        </li>
+        <ShoppingListItem />
       ))}
     </ul>
   );
