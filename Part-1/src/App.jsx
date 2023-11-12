@@ -17,6 +17,11 @@ import { Clicker } from "./Clicker";
 import { Form } from "./Form";
 import { ClickerExr } from "./ClickerExr";
 import { Counter } from "./Counter";
+import { Toggler } from "./Toggler";
+import { Toggler2 } from "./Toggler2";
+import { ToggleCounter } from "./ToggleCounter";
+import { ColorBox } from "./ColorBox";
+import { ColorBoxGrid } from "./ColorBoxGrid";
 
 // const data = [
 //   { id: 1, name: "eggs", quantity: 12, completed: false },
@@ -25,17 +30,35 @@ import { Counter } from "./Counter";
 //   { id: 4, name: "carrots", quantity: 6, completed: true },
 // ];
 
-const properties = [
-  { id: 129031, name: "Desert Yurt", rating: 4.9, price: 150 },
-  { id: 129032, name: "Lone Mountain Cabin", rating: 4.8, price: 250 },
-  { id: 129033, name: "Cactus Retreat", rating: 4.75, price: 300 },
-  { id: 129034, name: "Redwood Treehouse Escape", rating: 4.9, price: 120 },
-  { id: 129035, name: "Oceanview Condo", rating: 4.7, price: 140 },
-  { id: 129036, name: "Gold Miner Campground", rating: 4.69, price: 96 },
-];
+// const properties = [
+//   { id: 129031, name: "Desert Yurt", rating: 4.9, price: 150 },
+//   { id: 129032, name: "Lone Mountain Cabin", rating: 4.8, price: 250 },
+//   { id: 129033, name: "Cactus Retreat", rating: 4.75, price: 300 },
+//   { id: 129034, name: "Redwood Treehouse Escape", rating: 4.9, price: 120 },
+//   { id: 129035, name: "Oceanview Condo", rating: 4.7, price: 140 },
+//   { id: 129036, name: "Gold Miner Campground", rating: 4.69, price: 96 },
+// ];
 
 function App() {
-  // let emoji = ["😊", "😒", "😜", "😁", "🤢", "😎", "😆", "🤔", "😍"];
+  const colors = [
+    "#E53935",
+    "#E91E63",
+    "#9C27B0",
+    "#673AB7",
+    "#3F51B5",
+    "#2196F3",
+    "#03A9F4",
+    "#00BCD4",
+    "#009688",
+    "#4CAF50",
+    "#8BC34A",
+    "#CDDC39",
+    "#FFEB3B",
+    "#FFC107",
+    "#FF9800",
+    "#FF5722",
+  ];
+  // let emoji =  ["😊", "😒", "😜", "😁", "🤢", "😎", "😆", "🤔", "😍"];
   // let random = (mn, mx) => {
   //   return Math.random() * (mx - mn) + mn;
   // };
@@ -54,7 +77,12 @@ function App() {
   // };
   return (
     <div>
-      <Counter />
+      <ColorBoxGrid colors={colors} />
+      {/* <ColorBox colors={colors} /> */}
+      {/* <ToggleCounter /> */}
+      {/* <Toggler />
+      <Toggler2 /> */}
+      {/* <Counter /> */}
       {/* <ClickerExr message="Hi!!!!" buttonText="Click Me" />
       <ClickerExr message="Please Stop Clicking Me" buttonText="Do Not Click" /> */}
       {/* <Form /> */}

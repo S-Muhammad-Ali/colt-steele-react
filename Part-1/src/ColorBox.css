@@ -1,0 +1,22 @@
+.ColorBox {
+  width: 20%;
+  height: 20%;
+  border-color: antiquewhite;
+  border-radius: 10%;
+  border-style: solid;
+  box-sizing: border-box;
+}
+/* Add your existing styles for .ColorBox and .ColorBoxGrid here */
+
+/* Define additional classes for different shapes */
+.rectangle {
+  border-radius: 0; /* You can adjust this value based on your design */
+  width: 50%;
+}
+.rectangle2 {
+  border-radius: 0; /* You can adjust this value based on your design */
+  height: 50%;
+}
+.square {
+  border-radius: 0;
+}
